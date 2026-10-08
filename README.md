@@ -27,28 +27,28 @@ bun run preview:export  # serve ./out on :3111 (bunx serve)
 
 ## Deploy to Cloudflare Pages
 
-The build output is fully static (`./out`), so Pages serves it with zero runtime.
+The build output is fully static (`./out`), deployed as Workers Static Assets — no runtime, no Worker script.
 
 ### Option A — Git integration (automatic deploys on push)
 
 1. Push this repo to GitHub.
 2. Cloudflare Dashboard → Workers & Pages → **Create → Pages → Connect to Git**.
-3. Select the repo; framework preset: **Next.js**; build command `bun run build` (or `npm run build`); build output directory `out`.
-4. Save → Pages builds and serves `https://<project>.pages.dev`.
+3. Select the repo; framework preset: **Next.js**; build command `bun run build`.
+4. Save → Cloudflare builds, then `wrangler deploy` publishes `out/` via `[assets]` in `wrangler.toml`.
+5. Live at `https://saurabh-bhatia-portfolio.<account>.workers.dev` (or attach a Pages custom domain).
 
 ### Option B — CLI (no GitHub needed)
 
 ```bash
 bunx wrangler login                 # or set CLOUDFLARE_API_TOKEN
-bunx wrangler pages project create saurabh-bhatia-portfolio
-bun run deploy:cf                   # build + wrangler pages deploy out
+bun run deploy:cf                   # build + wrangler deploy (assets from out/)
 ```
 
-`wrangler.toml` already declares `pages_build_output_dir = "out"`.
+`wrangler.toml` declares `[assets] directory = "out"` with `not_found_handling = "404-page"` (serves `404.html`).
 
 ### After first deploy
 
-- **Custom domain:** Pages → your project → Custom domains.
+- **Custom domain:** Workers & Pages → your project → Custom domains.
 - **`metadataBase`:** once you have a domain, set it in `app/layout.tsx`
   (currently unset → build prints a benign warning and OG links resolve to localhost in dev).
 

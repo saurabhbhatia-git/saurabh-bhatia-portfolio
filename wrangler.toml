@@ -1,3 +1,8 @@
+# Static site (Next.js export) on Cloudflare Workers & Pages unified platform
+# Deploys ./out as static assets — no Worker script required.
 name = "saurabh-bhatia-portfolio"
-pages_build_output_dir = "out"
 compatibility_date = "2026-10-08"
+
+[assets]
+directory = "out"
+not_found_handling = "404-page"
