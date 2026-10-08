@@ -15,6 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://saurabh-bhatia-portfolio.pages.dev'),
   title: 'Saurabh Bhatia — Technical Program Manager | Ex-Amazon & Google | Cloud Infrastructure & Applied AI Integrations | Sydney',
   description:
     'Sydney-based Senior Technical Program Manager (Australian Permanent Resident) with 11+ years across Amazon and Google — release governance, change delivery and program leadership. Open to senior TPM roles.',

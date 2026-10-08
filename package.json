@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "clean": "next clean"
+    "clean": "next clean",
+    "postbuild": "cp out/opengraph-image out/og.png && perl -pi -e 's|/opengraph-image|/og.png|g' out/index.html out/404.html",
+    "preview:export": "bunx serve out -l 3111",
+    "deploy:cf": "bun run build && bunx wrangler pages deploy out"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
