@@ -29,7 +29,7 @@ export default function Hero() {
 
           {/* Executive Summary */}
           <p className="text-base sm:text-lg text-[#6e6e73] dark:text-[#a1a1a6] font-normal leading-relaxed max-w-2xl mb-10 text-balance">
-            11+ years taking end-to-end accountability for complex software rollouts across Amazon, Google, and Exxat Systems — combining repeatable release governance, Agile discipline, and cloud infrastructure &amp; AI literacy.
+            I take complex software from plan to production and bring people with it, with repeatable governance, clear accountability and no surprises at go-live.
           </p>
 
           {/* Action CTAs */}

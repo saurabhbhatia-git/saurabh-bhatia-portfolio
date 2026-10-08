@@ -46,8 +46,7 @@ export default function Contact() {
               <span>Sydney NSW</span>
               <span>·</span>
               <span>Australian Permanent Resident</span>
-              <span>·</span>
-              <span>References Available on Request</span>
+              
             </div>
           </div>
         </section>

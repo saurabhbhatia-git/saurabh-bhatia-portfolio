@@ -272,7 +272,7 @@ export default function Timeline({ activeFilter, setActiveFilter }: TimelineProp
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-zinc-400 dark:text-zinc-500 mt-1">―</span>
-                      <span>Architected a hardware release and recovery process for decommissioned fulfilment centres, enabling systematic audit and redeployment and generating <strong className="text-black dark:text-white font-medium">$150K in monthly recurring savings per warehouse</strong> ($270M+ network impact).</span>
+                      <span>Led implementation of the <strong className="text-black dark:text-white font-medium">Speakeasy call recording compliance solution</strong>, coordinating engineering, legal, and operations to meet regulatory requirements on schedule.</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-zinc-400 dark:text-zinc-500 mt-1">―</span>

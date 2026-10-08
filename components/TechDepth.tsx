@@ -120,7 +120,7 @@ export default function TechDepth() {
                 </ul>
               </div>
               <div className="mt-6 pt-4 border-t border-black/[0.04] dark:border-white/[0.04] text-[11px] text-[#86868b] dark:text-zinc-500 font-mono">
-                5 GenAI Certifications (2026)
+                Credentialed across Google Cloud, AWS &amp; Anthropic
               </div>
             </div>
 
