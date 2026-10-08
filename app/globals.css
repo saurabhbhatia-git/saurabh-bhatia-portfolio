@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@keyframes hero-pulse {
+  0%, 100% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: translate(-50%, 8px) scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes hero-float-card {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-hero-glow {
+  animation: hero-pulse 9s ease-in-out infinite;
+}
+
+.animate-float-subtle {
+  animation: hero-float-card 6s ease-in-out infinite;
+}
