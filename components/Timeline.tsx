@@ -238,7 +238,7 @@ export default function Timeline({ activeFilter, setActiveFilter }: TimelineProp
                       <div className="flex items-center gap-2 text-xs font-semibold text-orange-600 dark:text-orange-400 uppercase tracking-wider mb-1">
                         <span>Amazon</span>
                         <span>·</span>
-                        <span className="normal-case font-normal text-zinc-500">Promoted 4x Across 8 Years</span>
+                        <span className="normal-case font-normal text-zinc-500">4 Promotions · 8-Year Tenure</span>
                       </div>
                       <h3 className="text-xl sm:text-2xl font-bold text-[#1d1d1f] dark:text-white">
                         Senior Program Manager
@@ -249,7 +249,7 @@ export default function Timeline({ activeFilter, setActiveFilter }: TimelineProp
                     </div>
                     <div className="flex flex-col md:items-end text-xs text-[#86868b] dark:text-zinc-400 font-mono">
                       <span>Apr 2011 – Jun 2019 · 8 yrs 3 mos</span>
-                      <span className="text-[#6e6e73] dark:text-zinc-400 font-sans">Hyderabad, India &amp; Global</span>
+                      <span className="text-[#6e6e73] dark:text-zinc-400 font-sans">Hyderabad, India · Global Scope</span>
                     </div>
                   </div>
 
