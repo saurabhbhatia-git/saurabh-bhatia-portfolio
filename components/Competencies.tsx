@@ -52,7 +52,7 @@ export default function Competencies() {
               </div>
             </div>
 
-            {/* Pillar 2: Change & Stakeholder Leadership */}
+            {/* Pillar 2: Release Management & Stakeholder Leadership */}
             <div className="rounded-2xl p-8 bg-white/80 dark:bg-zinc-950/70 border border-black/[0.06] dark:border-white/[0.08] shadow-xs">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 flex items-center justify-center text-emerald-600 dark:text-emerald-400">
@@ -60,7 +60,7 @@ export default function Competencies() {
                 </div>
                 <div>
                   <span className="text-xs font-mono uppercase tracking-wider text-emerald-600 dark:text-emerald-400 block">Pillar 02</span>
-                  <h3 className="text-lg font-bold text-[#1d1d1f] dark:text-white">Change &amp; Stakeholder Leadership</h3>
+                  <h3 className="text-lg font-bold text-[#1d1d1f] dark:text-white">Release Management &amp; Stakeholder Leadership</h3>
                 </div>
               </div>
 

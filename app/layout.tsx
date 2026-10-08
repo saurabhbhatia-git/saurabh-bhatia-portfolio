@@ -18,12 +18,11 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://saurabh-bhatia-portfolio.pages.dev'),
   title: 'Saurabh Bhatia — Technical Program Manager | Ex-Amazon & Google | Cloud Infrastructure & Applied AI Integrations | Sydney',
   description:
-    'Sydney-based Senior Technical Program Manager (Australian Permanent Resident) with 11+ years across Amazon and Google — release governance, change delivery and program leadership. Open to senior TPM roles.',
+    'Sydney-based Senior Technical Program Manager (Australian Permanent Resident) with 11+ years across Amazon and Google — release governance and program leadership. Open to senior TPM roles.',
   keywords: [
     'Senior Technical Program Manager',
     'Technical Program Manager Sydney',
     'Release Management',
-    'Change Delivery',
     'Program Delivery',
     'Agile Delivery',
     'Sydney Technology Jobs',

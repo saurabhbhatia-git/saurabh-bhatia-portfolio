@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
 
             <div className="text-xs text-[#86868b] dark:text-zinc-500 flex items-center justify-center gap-3">
-              <span>North Strathfield, Sydney NSW</span>
+              <span>Sydney NSW</span>
               <span>·</span>
               <span>Australian Permanent Resident</span>
               <span>·</span>
